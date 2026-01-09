@@ -1,10 +1,7 @@
-import { TodoProvider } from "./projects/project-1-todo/context/TodoProvider"
-import TodoForm from "./projects/project-1-todo/components/TodoForm"
+import { TodoPage } from "./projects/project-1-todo/pages/TodoPage"
 
 export default function App() {
   return (
-    <TodoProvider>
-      <TodoForm />
-    </TodoProvider>
+    <TodoPage />
   )
 }

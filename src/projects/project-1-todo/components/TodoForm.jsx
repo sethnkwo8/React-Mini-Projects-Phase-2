@@ -1,9 +1,8 @@
-import { useState } from "react";
-import { useTodos } from "../hooks/useTodos"
+import { useTodos } from "../hooks/useTodos";
 import { ACTIONS } from "../reducer/todoReducer";
+import { useState } from "react";
 
-export default function TodoForm() {
-
+export function TodoForm({ onDone }) {
     const { dispatch } = useTodos();
     const [formData, setFormData] = useState({
         title: '',
@@ -36,6 +35,8 @@ export default function TodoForm() {
             title: '',
             description: ''
         })
+
+        onDone();
     }
 
 
