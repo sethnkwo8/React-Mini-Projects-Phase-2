@@ -1,4 +1,4 @@
-import { useAuth } from "../hooks/useAuth";
+import { useAuth } from "../../hooks/useAuth";
 import { LogoutButton } from "./LogoutButton";
 
 export function Profile() {

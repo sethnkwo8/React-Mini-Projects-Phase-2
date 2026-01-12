@@ -220,6 +220,9 @@
   .mx-24 {
     margin-inline: calc(var(--spacing) * 24);
   }
+  .mt-20 {
+    margin-top: calc(var(--spacing) * 20);
+  }
   .flex {
     display: flex;
   }

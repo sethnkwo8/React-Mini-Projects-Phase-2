@@ -1,10 +1,12 @@
 import { useState } from "react";
-import { useAuth } from "../hooks/useAuth";
-import { ACTIONS } from "../reducer/authReducer";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../hooks/useAuth";
+import { ACTIONS } from "../../reducer/authReducer";
 
 export function LoginForm() {
 
     const { dispatch } = useAuth();
+    const navigate = useNavigate();
     const [username, setUsername] = useState('');
 
     function handleChange(e) {
@@ -14,7 +16,8 @@ export function LoginForm() {
     function handleSubmit(e) {
         e.preventDefault();
         dispatch({ type: ACTIONS.LOGIN, payload: { username: username.trim() } })
-        setUsername('')
+        setUsername('');
+        navigate('/profile', { replace: true })
     }
 
     return (
