@@ -69,30 +69,31 @@ react-mini-projects-phase-2/
 ## 📦 Projects
 
 ### 1️⃣ Advanced Todo App
-- Global state management using `useReducer + Context`
-- Performance optimization with `React.memo`, `useMemo`, and `useCallback`
+- Global state with `useReducer + Context`
 - Custom hooks for state access
-- Clean, scalable architecture
+- Optimized rendering with memoization
+- Scalable architecture
 
-📄 See: `projects/project-1-todo/README.md`
+📄 `project-1-todo/README.md`
 
 ---
 
 ### 2️⃣ Authentication State App
-- Authentication state with `useContext + useReducer`
-- Login / Logout flow
-- Protected UI logic
-- Page-based structure ready for routing
+- Auth state using `useContext + useReducer`
+- Protected routes logic
+- Feature-based folder structure
+- Page-level composition
 
-📄 See: `projects/project-2-authstateapp/README.md`
+📄 `project-2-authstateapp/README.md`
 
 ---
 
 ## 🚀 Purpose
-These projects were built to:
-- Strengthen real-world React architecture skills
-- Practice performance-aware component design
-- Prepare for **React Router, TypeScript, Next.js, and Full Stack React**
+To build **real-world React architecture skills** and prepare for:
+- React Router
+- TypeScript
+- Next.js
+- Full Stack React applications
 
 ---
 
