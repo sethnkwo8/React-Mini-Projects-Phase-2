@@ -10,6 +10,8 @@ and application architecture.
 - JavaScript (ES6+)
 - Tailwind CSS
 
+---
+
 ## 🧠 Concepts Covered
 - useReducer
 - useContext
@@ -21,6 +23,11 @@ and application architecture.
 - Custom Hooks
 - Performance optimization
 - Scalable folder architecture
+- Feature-based structure
+- Protected routes
+- React Router fundamentals
+
+---
 
 # 📁 Project Structure
 ```
@@ -39,41 +46,55 @@ react-mini-projects-phase-2/
 │       └── main.jsx
 │       └── projects/
 │           └── project-1-todo/
+│           │   └── components/
+│           │   └── context/
+│           │   └── reducer/
+│           │   └── hooks/
+│           │   └── README.md/
+│           │   
+│           └── project-2-authstateapp/
 │               └── components/
 │               └── context/
 │               └── reducer/
 │               └── hooks/
-│               └── TodoApp.jsx/
+│               └── features/
+│               └── pages/
 │               └── README.md/
 │
 └── package.json
 ```
 
+---
+
 ## 📦 Projects
 
-### 1. Advanced Todo App
-- Global state with useReducer + Context
-- Optimized rendering with React.memo and useCallback
+### 1️⃣ Advanced Todo App
+- Global state management using `useReducer + Context`
+- Performance optimization with `React.memo`, `useMemo`, and `useCallback`
 - Custom hooks for state access
-- Clean scalable architecture
+- Clean, scalable architecture
 
-### 2. Authentication State App
-- Auth state using Context + Reducer
+📄 See: `projects/project-1-todo/README.md`
+
+---
+
+### 2️⃣ Authentication State App
+- Authentication state with `useContext + useReducer`
 - Login / Logout flow
 - Protected UI logic
+- Page-based structure ready for routing
 
-### 3. Performance Dashboard
-- Heavy computations optimized with useMemo
-- Stable callbacks with useCallback
+📄 See: `projects/project-2-authstateapp/README.md`
 
-### 4. Custom Hooks Playground
-- useToggle
-- useLocalStorage
-- useFetch
+---
 
 ## 🚀 Purpose
-These projects were built to strengthen real-world React skills
-and prepare for professional frontend and full-stack roles.
+These projects were built to:
+- Strengthen real-world React architecture skills
+- Practice performance-aware component design
+- Prepare for **React Router, TypeScript, Next.js, and Full Stack React**
+
+---
 
 ## 👤 Author
-Seth Nkwo
+**Seth Nkwo**

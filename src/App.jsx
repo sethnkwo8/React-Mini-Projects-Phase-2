@@ -3,9 +3,15 @@ import Profilepage from "./projects/project-2-authstateapp/pages/Profilepage"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { AuthProvider } from "./projects/project-2-authstateapp/contexts/AuthProvider"
 import { ProtectedRoute } from "./projects/project-2-authstateapp/components/ProtectedRoute"
+import { TodoPage } from "./projects/project-1-todo/pages/TodoPage"
+// import { TodoPage } from "./projects/project-1-todo/pages/TodoPage"
 
 export default function App() {
   return (
+
+    // For Todo App
+    // <TodoPage />
+
     <BrowserRouter>
       <AuthProvider>
         <Routes>
